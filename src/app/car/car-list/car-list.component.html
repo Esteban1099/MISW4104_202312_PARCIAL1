@@ -5,25 +5,25 @@
         <tr>
           <th class="h4">#</th>
           <th class="h4">Marca</th>
-          <th class="h4">Linea</th>
+          <th class="h4">Línea</th>
           <th class="h4">Modelo</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let c of cars">
           <td>
-            <dd>{{c.id}}</dd>
+            <dd id="carId">{{c.id}}</dd>
           </td>
           <td>
-            <dd>{{c.marca}}</dd>
+            <dd id="carMarca">{{c.marca}}</dd>
           </td>
           <td>
-            <dd>{{c.linea}}</dd>
+            <dd id="carLinea">{{c.linea}}</dd>
           </td>
           <td>
-            <dd>{{c.modelo}}</dd>
+            <dd id="carModelo">{{c.modelo}}</dd>
           </td>
-      </tr>
+        </tr>
       </tbody>
     </table>
   </div>
