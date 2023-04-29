@@ -12,7 +12,7 @@ import { CarModule } from './car/car.module';
   imports: [
     BrowserModule,
     CarModule,
-
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
